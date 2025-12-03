@@ -3,7 +3,6 @@
 html{ height:100vh;}
 
 
-
 .main{
     max-width:960px;
     margin-inline:auto;
@@ -249,18 +248,14 @@ textarea{
     height:100px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .footer{
     padding:24px;
     text-align:center;
     color:#FFFFFF;
+}
+
+@media(max-width:600px){
+    article{
+        width:100%;
+    }
 }
