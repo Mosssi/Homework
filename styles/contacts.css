@@ -1,0 +1,60 @@
+
+/*contacts*/
+.user-information{
+    border-radius:12px;
+    margin-top:24px;
+    padding:16px;
+    margin-bottom:2vh;   
+    margin-top:24px;
+}
+
+fieldset{
+    border-color:var(--color-secondary);
+    /* margin-top: 8vh; */
+    margin-bottom:8vh;
+    border-radius:12px;
+    line-height:2em;
+    padding:1rem;
+}
+
+.title{
+    font-size:2rem;
+}
+
+.user-input{
+    margin-bottom:8px;
+}
+
+.required::after{
+    content:r'*';
+    color:red;
+    border-radius:12px;
+    display:inline-block;
+    color:var(--color-primary);
+}
+
+textarea{
+    text-align:left;
+    width:100%;
+    max-width:100%;
+    box-sizing:border-box;
+    display:block;
+    height:100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+.info-item{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+
+.icon::after{
+    width:24px;
+    height:24px;
+}

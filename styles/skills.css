@@ -1,0 +1,50 @@
+/*skills*/
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    flex-direction:row;
+    gap:24px;
+    padding:12px 32px;
+}
+
+.skill-box{
+    flex:1;
+    border:1px solid var(--color-secondary);
+    padding:12px;
+    color:aqua;
+}
+
+table{
+    border-collapse: collapse;
+    margin:20px auto;
+    color:var(--color-primary);
+}
+
+th,td{
+    border:1px solid var(--color-secondary);
+    padding: 12px;
+    text-align: left;
+}
+
+
+.label{
+    white-space:nowrap;
+}
+
+.info{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.icon{
+    width: 28px;
+    height: 28px;
+    vertical-align:middle;
+
+    margin-right:6px;
+    vertical-align: middle;
+}

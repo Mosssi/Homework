@@ -1,0 +1,22 @@
+/*about*/
+
+.about__grid{
+    display:grid;
+    grid-template-columns:1fr 1.5fr;
+    gap:32px;
+    align-items:center;
+    margin-bottom:32px;
+}
+.about__img{margin:0;}
+
+.about__img img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:12px;
+}
+
+.container{
+    margin-inline:auto;
+    padding-inline: 16px;
+}
